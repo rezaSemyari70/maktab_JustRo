@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  direction: rtl;
+  font-family: Shabnam;
+  overflow-x: hidden;
+}
+
+.container {
+  direction: rtl;
+  font-family: Shabnam;
+}
+
+@media screen and (max-width: 1800px) {
+  .logoContainer-Lg {
+    padding-right: 100px !important;
+  }
+  .boxLogo {
+    right: 320px !important;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  ul li a {
+    padding-left: 50px !important;
+  }
+  .orangeButton {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .logoContainer-Lg {
+    padding-right: 50px !important;
+  }
+  .boxLogo {
+    right: 270px !important;
+  }
+  ul li a {
+    padding-left: 40px !important;
+  }
+  .orangeButton {
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .logoContainer-Lg {
+    padding-right: 0px !important;
+  }
+  .boxLogo {
+    right: 220px !important;
+  }
+  ul li a {
+    padding-left: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .logoContainer-Lg {
+    padding-right: 0px !important;
+    margin-right: -120px;
+  }
+  ul li a {
+    padding-left: 20px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contentInfo {
+    top: 221px;
+    padding-right: 31px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bgPicTraveling {
+    width: 634px;
+    height: 350px;
+  }
+  .orangeButton {
+    margin-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bgPicTraveling {
+    width: 534px;
+    height: 205px;
+  }
+  .navMenu {
+    padding-right: 0px !important;
+  }
+  ul li a {
+    padding-left: 10px !important;
+  }
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam.eot");
+  src: url("Shabnam.eot?#iefix") format("embedded-opentype"), url("Shabnam.woff2") format("woff2"), url("Shabnam.woff") format("woff"), url("Shabnam.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Bold.eot");
+  src: url("Shabnam-Bold.eot?#iefix") format("embedded-opentype"), url("Shabnam-Bold.woff2") format("woff2"), url("Shabnam-Bold.woff") format("woff"), url("Shabnam-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Thin.eot");
+  src: url("Shabnam-Thin.eot?#iefix") format("embedded-opentype"), url("Shabnam-Thin.woff2") format("woff2"), url("Shabnam-Thin.woff") format("woff"), url("Shabnam-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Light.eot");
+  src: url("Shabnam-Light.eot?#iefix") format("embedded-opentype"), url("Shabnam-Light.woff2") format("woff2"), url("Shabnam-Light.woff") format("woff"), url("Shabnam-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url("Shabnam-Medium.eot");
+  src: url("Shabnam-Medium.eot?#iefix") format("embedded-opentype"), url("Shabnam-Medium.woff2") format("woff2"), url("Shabnam-Medium.woff") format("woff"), url("Shabnam-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+.orangeButton {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  font-family: Shabnam;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-right: 38px;
+  cursor: pointer;
+}
+
+.radioBtns-L {
+  margin-top: 50px !important;
+}
+
+.radioBtns-XS {
+  margin-top: 90px;
+}
+
+.activRadioBtn {
+  width: 24px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #ff7043;
+  border: none;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.radioBtn {
+  width: 12px;
+  height: 12px;
+  background-color: #bdbdbd;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.headerBox {
+  height: 80px;
+  box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
+  background-color: #ffffff;
+  color: #007f62;
+  padding-left: 23px;
+  padding-right: 25px;
+}
+
+.headerBox .titleMenu {
+  font-family: Shabnam;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #007f62;
+  padding-right: 16px;
+}
+
+.lefSideHeader {
+  padding-top: 37px;
+}
+
+.inputSearch {
+  width: 70% !important;
+}
+
+.header-L {
+  width: 100vw !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.bgLogo-XS {
+  width: 370px !important;
+  height: 192px;
+  z-index: 1;
+  position: absolute;
+  right: -125px;
+  top: 80px !important;
+}
+
+.bgLogoLg {
+  width: 406px;
+  height: 219px;
+  z-index: 1;
+}
+
+.navMenu {
+  padding-right: 31px;
+  padding-top: 45px;
+  z-index: 100;
+}
+
+.navMenu ul li a {
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  padding-left: 64px;
+}
+
+.headerWave {
+  position: absolute;
+  width: 383px;
+  height: 374px;
+  left: 0px;
+  top: 0px;
+  z-index: -10;
+}
+
+.camel-XS {
+  width: 72px;
+  height: 72px;
+  background-color: #007f62;
+  border-radius: 100%;
+  top: 130px;
+  right: 58px;
+  z-index: 2;
+}
+
+.camel-L {
+  width: 72px;
+  height: 72px;
+  background-color: #007f62;
+  border-radius: 100%;
+  top: 20px;
+  right: 400px;
+  z-index: 2;
+}
+
+.logo-XS {
+  position: absolute;
+  top: 130px;
+  right: 58px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: row !important;
+}
+
+.logoContainer-Lg {
+  position: relative;
+  padding-right: 190px;
+}
+
+.logoContainer-XS {
+  z-index: -10000;
+}
+
+.logo {
+  width: 72px;
+  height: 72px;
+  background-color: #007f62;
+}
+
+.boxLogo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  top: 21px;
+  right: 406px;
+}
+
+.tileLogo {
+  padding-right: 12px;
+  font-family: Shabnam;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #007f62;
+  z-index: 5;
+  margin: 0px;
+}
+
+.tileLogo-XS {
+  padding-right: 8px;
+  font-family: Shabnam;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #007f62;
+  z-index: 5;
+  margin: 0px;
+}
+
+.info {
+  padding: 0px !important;
+}
+
+.info-XS {
+  padding: 31px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .contentInfo {
+    top: 221px;
+    padding-right: 31px !important;
+  }
+}
+
+.line {
+  width: 70px;
+  height: 3px;
+  border-radius: 1.5px;
+  background-color: #00a680;
+  margin-bottom: 24px;
+}
+
+.textInfo {
+  padding-right: 31px;
+}
+
+.titleInfo {
+  font-family: Shabnam;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #007f62;
+}
+
+.describInfo {
+  font-weight: bold;
+  width: 288px;
+  height: 113px;
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0px !important;
+  text-align: right;
+}
+
+.picInfo {
+  position: absolute;
+  width: auto;
+  height: 274px;
+  background-image: url(../images/002_slide1_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px !important;
+  top: 64px;
+}
+
+.contentInfo {
+  margin-top: 126px;
+}
+
+.contentInfo-xs {
+  margin-top: 221px;
+}
+
+.bgPicTraveling {
+  position: relative;
+  width: 834px;
+  height: 505px;
+  background-image: url(../images/007_slide3_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .bgPicTraveling {
+    width: 634px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .bgPicTraveling {
+    width: 534px;
+    height: 205px;
+  }
+}
+
+.picTraveling {
+  position: absolute;
+  width: 503px;
+  height: 655px;
+  top: -121px;
+  right: 298.6px;
+  background-image: url(../images/006_slide3_traveling.svg);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .picTraveling {
+    width: 403px;
+    height: 555px;
+    top: -141px;
+    right: 220px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .picTraveling {
+    width: 253px;
+    height: 405px;
+    top: -100px;
+    right: 120px;
+  }
+}
+
+.picBirds {
+  position: absolute;
+  width: 149px;
+  height: 49px;
+  top: -121px;
+  left: 464px;
+  background-image: url(../images/008_slide3_birds.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+  .picBirds {
+    left: 414px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .picBirds {
+    top: -111px;
+    left: 264px;
+  }
+}
+
+.picWoman {
+  position: absolute;
+  width: 239px;
+  height: 350px;
+  top: -54px;
+  left: 5px;
+  background-image: url(../images/001_slide1_woman_view.svg);
+  background-repeat: no-repeat;
+}
+
+.picBallon1 {
+  position: absolute;
+  width: 42px;
+  height: 57px;
+  top: 0px;
+  right: 54px;
+}
+
+.picBallon2 {
+  position: absolute;
+  width: 24px;
+  height: 33px;
+  top: 60px;
+  right: 19px;
+}
+
+.picBallon3 {
+  position: absolute;
+  width: 24px;
+  height: 33px;
+  top: -57px;
+  left: 5px;
+}
+
+.radioBtns-L {
+  margin-top: 250px;
+}
+
+.radioBtns-XS {
+  margin-top: 90px;
+}
+
+.activRadioBtn {
+  width: 24px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #ff7043;
+  border: none;
+  cursor: pointer;
+  margin-right: 7px;
+}
+
+.radioBtn {
+  width: 12px;
+  height: 12px;
+  background-color: #bdbdbd;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.dubleWave {
+  background-image: url(../images/019_dlbox_Bg.jpg);
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    direction: rtl;
+    font-family: Shabnam;
+    overflow-x: hidden;
+}
+
+.container{
+    direction: rtl;
+    font-family: Shabnam;
+}
+
+@media screen and (max-width: 1800px) {
+
+    .logoContainer-Lg {
+        padding-right: 100px !important;
+    }
+
+    .boxLogo {
+        right: 320px !important;
+    }
+
+}
+
+@media screen and (max-width: 1700px) {
+    ul {
+        li {
+            a {
+                padding-left: 50px !important;
+            }
+        }
+    }
+
+    .orangeButton {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+
+    .logoContainer-Lg {
+        padding-right: 50px !important;
+    }
+
+    .boxLogo {
+        right: 270px !important;
+    }
+
+    ul {
+        li {
+            a {
+                padding-left: 40px !important;
+            }
+        }
+    }
+
+    .orangeButton {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .logoContainer-Lg {
+        padding-right: 0px !important;
+    }
+
+    .boxLogo {
+        right: 220px !important;
+    }
+
+    ul {
+        li {
+            a {
+                padding-left: 20px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .logoContainer-Lg {
+        padding-right: 0px !important;
+        margin-right: -120px;
+    }
+
+    ul {
+        li {
+            a {
+                padding-left: 20px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contentInfo {
+        top: 221px;
+        padding-right: 31px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bgPicTraveling {
+        width: 634px;
+        height: 350px;
+    }
+
+    .orangeButton{
+        margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bgPicTraveling {
+        width: 534px;
+        height: 205px;
+    }
+
+    .navMenu{
+        padding-right: 0px !important;
+    }
+
+    ul {
+        li {
+            a {
+                padding-left: 10px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@mixin title {
+    font-family: Shabnam;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $title-color;
+}
+
+@mixin text {
+    width: 288px;
+    height: 113px;
+    font-family: Shabnam;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+@mixin camel {
+    width: 72px;
+    height: 72px;
+    background-color: $title-color;
+    border-radius: 100%;
+}
+
+@mixin flexRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

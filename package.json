@@ -1,0 +1,22 @@
+{
+  "name": "justro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaSemyari70/maktab_JustRo.git"
+  },
+  "author": "reza semyari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezaSemyari70/maktab_JustRo/issues"
+  },
+  "homepage": "https://github.com/rezaSemyari70/maktab_JustRo#readme",
+  "dependencies": {
+    "shabnam-font": "^5.0.0"
+  }
+}
