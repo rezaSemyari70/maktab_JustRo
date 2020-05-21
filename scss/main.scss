@@ -1,7 +1,6 @@
 @import '_reset';
 @import '_typography';
 @import '_mixins';
-@import '_variables';
 @import '_theme';
 @import '_buttons';
 
@@ -108,7 +107,7 @@
 }
 
 .logoContainer-Lg {
-    
+
     position: relative;
     padding-right: 190px;
 }
@@ -222,7 +221,7 @@
         width: 634px;
         height: 350px;
     }
-   
+
 }
 
 @media screen and (max-width: 992px) {
@@ -317,16 +316,15 @@
     left: 5px;
 }
 
-.radioBtns-L{
+.radioBtns-L {
     margin-top: 250px;
 }
 
-.radioBtns-XS{
+.radioBtns-XS {
     margin-top: 90px;
 }
 
 .activRadioBtn {
-    // position: absolute;
     width: 24px;
     height: 12px;
     border-radius: 6px;
@@ -337,7 +335,6 @@
 }
 
 .radioBtn {
-    // position: absolute;
     width: 12px;
     height: 12px;
     background-color: #bdbdbd;
@@ -348,6 +345,85 @@
     margin-right: 9px;
 }
 
-.dubleWave{
-    background-image: url(../images/019_dlbox_Bg.jpg);
+.waves-L {
+    @include waves;
 }
+
+.waves-XS {
+    @include waves;
+    height: 152px;
+}
+
+.screenMobile-L {
+    width: 383px;
+    height: 750px;
+    background-image: url(../images/ScreenMobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px !important;
+}
+
+.screenMobile-XS {
+    width: 300px;
+    height: 587px;
+    background-image: url(../images/ScreenMobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px !important;
+}
+
+
+
+.reservation-L {
+    top: 270px;
+    position: relative;
+
+    .circle {
+        @include circle;
+    }
+
+    .reserveText {
+        padding-right: 65px !important;
+    }
+}
+
+.reservation-XS {
+    top: 110px;
+    position: relative;
+
+    .circle {
+        @include circle;
+        margin-bottom: 20px;
+        margin-left: 17px;
+    }
+
+}
+
+.textInfoReserve {
+    margin-top: 61px !important;
+}
+
+
+.bgActive {
+    background: linear-gradient(#ff7043, #bdbdbd) !important;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #f46739, #ff9f81);
+}
+
+.colCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.optionReserve {
+    position: relative;
+}
+
+.lineCenter {
+    width: 55px;
+    height: 4px;
+    border-bottom: 1px solid black;
+    transform: rotate(90deg);
+    z-index: 1;
+}
+

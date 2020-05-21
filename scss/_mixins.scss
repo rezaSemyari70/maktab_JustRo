@@ -36,3 +36,39 @@
     justify-content: center;
     flex-direction: row;
 }
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin waves {
+    position: absolute;
+    right: 0px;
+    width: 100vw;
+    height: 420px;
+    background-image: url(../images/011_bg_wave.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px !important;
+    overflow: hidden; 
+}
+
+@mixin circle {
+    width: 72px;
+        height: 72px;
+        border-style: solid;
+        border-width: 1px !important;
+        border-left: solid #00a680;
+        border-right: solid #00f4bd;
+        border-bottom: solid #00a680;
+        border-top: solid #00f4bd;
+        border-image-slice: 1px;
+        border-radius: 100%;
+        background-color: #ffffff;
+        @include flexCenter;
+        z-index: 5;
+        margin-bottom: 52px;
+}
