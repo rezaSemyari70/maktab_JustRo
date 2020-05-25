@@ -16,11 +16,11 @@
     cursor: pointer;
 }
 
-.radioBtns-L{
+.radioBtns-L {
     margin-top: 50px !important;
 }
 
-.radioBtns-XS{
+.radioBtns-XS {
     margin-top: 90px;
 }
 
@@ -43,4 +43,25 @@
     cursor: pointer;
     margin-left: 9px;
     margin-right: 9px;
+}
+
+@mixin downloadBtn {
+    width: 140px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+    cursor: pointer;
+}
+
+@mixin downloadLink {
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+    background-image: linear-gradient(to top, #00a680, #00f4bd);
+    color: white;
+    cursor: pointer;
 }
