@@ -1102,4 +1102,175 @@ body {
     background-color: #ffffff !important;
   }
 }
+
+.footer {
+  position: relative;
+  top: 100px;
+}
+
+.bgFooter {
+  position: relative;
+  top: 420px;
+  right: 0px;
+  bottom: 0px !important;
+  width: 90vw !important;
+  height: 278px;
+  background-image: url(../images/025_footer_Bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px !important;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.contentFooter {
+  position: relative;
+}
+
+.bgSocial {
+  width: 64px;
+  height: 64px;
+  background-image: linear-gradient(to top, #dadada, #ffffff), linear-gradient(to bottom, #dadada, #ffffff);
+}
+
+.bgSocial img:first-child {
+  width: 32px;
+  height: 28px;
+}
+
+.bgSocial img:nth-child(2) {
+  width: 32px;
+  height: 32px;
+}
+
+.bgSocial img:nth-child(2) {
+  width: 32px;
+  height: 28px;
+}
+
+.bgTelegram,
+.bgTwitter {
+  width: 64px;
+  height: 64px;
+  box-shadow: 0px 10px 15px 0 rgba(0, 88, 67, 0.75);
+  background-blend-mode: overlay;
+  background-image: linear-gradient(to bottom, #75d2fd, #29b6f6);
+}
+
+.bgInstagram {
+  width: 64px;
+  height: 64px;
+  box-shadow: 0px 10px 15px 0 rgba(0, 88, 67, 0.75);
+  background-blend-mode: overlay;
+  background-image: linear-gradient(to bottom, #eb94b1, #ec407a);
+}
+
+.socialIcon-XS {
+  margin-top: 91px;
+  margin-bottom: 50px !important;
+}
+
+.socialIcon-XS div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcon-XS img {
+  width: 32px;
+  height: 28px;
+}
+
+.socialIcon {
+  height: 150px;
+  margin-bottom: 50px !important;
+}
+
+.socialIcon img {
+  width: 32px;
+  height: 28px;
+}
+
+.socialIcon div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li a {
+  font-size: 13px;
+  color: white;
+  list-style-type: square !important;
+}
+
+ul li a::before {
+  content: "\2022";
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.backLogoFooter {
+  position: absolute;
+  bottom: 0px;
+  width: 439px;
+  height: 106px;
+  background-image: url("../images/026_footer_c.right_bg.svg");
+  background-repeat: no-repeat;
+}
+
+.logoFooter {
+  position: relative;
+  bottom: 0px;
+  width: 72px;
+  height: 72px;
+  background-color: #007f62;
+}
+
+.logoFooter-L {
+  position: absolute;
+  bottom: 73px;
+  width: 72px;
+  height: 72px;
+  background-color: #007f62;
+  border: 2px solid white;
+}
+
+.copyRight {
+  position: absolute;
+  width: 141px;
+  height: 31px;
+  font-family: Shabnam;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-size: 13px;
+  width: 250px;
+  height: 36px;
+  bottom: 15px !important;
+  left: 90px;
+}
+
+.footerWave {
+  position: absolute;
+  top: 32px;
+  right: -181px;
+  width: 799px;
+  height: 569px;
+  opacity: 0.5;
+  z-index: 0;
+}
 /*# sourceMappingURL=main.css.map */
