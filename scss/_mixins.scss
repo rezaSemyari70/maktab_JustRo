@@ -23,6 +23,20 @@
     color: #000000;
 }
 
+@mixin whiteText {
+    width: 141px;
+    height: 31px;
+    font-family: Shabnam;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
 @mixin camel {
     width: 72px;
     height: 72px;
@@ -53,22 +67,32 @@
     background-position: center;
     background-size: cover;
     padding: 0px !important;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 @mixin circle {
     width: 72px;
-        height: 72px;
-        border-style: solid;
-        border-width: 1px !important;
-        border-left: solid #00a680;
-        border-right: solid #00f4bd;
-        border-bottom: solid #00a680;
-        border-top: solid #00f4bd;
-        border-image-slice: 1px;
-        border-radius: 100%;
-        background-color: #ffffff;
-        @include flexCenter;
-        z-index: 5;
-        margin-bottom: 52px;
+    height: 72px;
+    border-style: solid;
+    border-width: 1px !important;
+    border-left: solid #00a680;
+    border-right: solid #00f4bd;
+    border-bottom: solid #00a680;
+    border-top: solid #00f4bd;
+    border-image-slice: 1px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    @include flexCenter;
+    z-index: 5;
+    margin-bottom: 52px;
+}
+
+@mixin optionPic {
+    position: relative !important;
+    width: 221.9px;
+    height: 156.6px;
+    // background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0px 3.6px;
+    // padding-left: 15.2px;
 }
